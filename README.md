@@ -73,6 +73,20 @@ Run the main application:
 python3 main.py
 ```
 
+Our system handles three types of queries, each processed by specialized agents:
+
+### 1. General Knowledge Queries
+![General Knowledge Query Example](images/query_type_1.png)
+*Example of a general knowledge query being processed by the system*
+
+### 2. Project-Related Queries
+![Project Query Example](images/query_type_2.png)
+*Example of a project-specific query using RAG for context-aware responses*
+
+### 3. Employee Database Queries
+![Employee Query Example](images/query_type_3.png)
+*Example of an employee-related query using SQL conversion*
+
 Example queries:
 ```python
 # General Knowledge Query
